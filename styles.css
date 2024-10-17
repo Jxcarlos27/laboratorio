@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("pool.jpg");
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+main{
+    display: flex;
+    background:url(pee.jpg);
+}
+
+section {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+
+}
+.appointment-section {
+    width: 35%;
+    background-color:#4d6959;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.appointment-section h2 {
+    color: rgb(245, 245, 245);
+    margin-bottom: 15px;
+}
+
+.appointment-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.appointment-section label {
+    font-size: 0.9em;
+    color: #020000;
+}
+
+.appointment-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment-section button {
+    padding: 10px;
+    background-color: #304841;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #304841;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.contenedor {
+  width: 100%;
+}
+
+
+section {
+    border: 1px solid #ffffff42;
+    background-color: #ccccccf6;
+    padding: 20px;
+    margin: 20px;
+    width: 700px;
+    
+
+}
+
